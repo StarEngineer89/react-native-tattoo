@@ -7,7 +7,7 @@ export default {
 }
 
 export const defaultLanguage = {
-	code: 'en',
+	code: 'es',
 	rtl: false
 }
 export const defaultCurrency = 'USD';
