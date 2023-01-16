@@ -73,6 +73,13 @@ export default {
         share_title: 'Share {{listing}}',
         share_message: 'I be love this {{listing}} listing',
 
+        contact_address: 'Contact Address',
+        contact_phone: 'Contact Phone',
+        contact_email: 'Contact Email',
+        contact_web: 'Contact Web',
+        hosted_by: 'Hosted By',
+        hosted_by_email: 'Hosted By Email',
+        hosted_by_phone: 'Hosted By Phone',
     },
 
     // claim screen
