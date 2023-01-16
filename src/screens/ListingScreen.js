@@ -70,6 +70,7 @@ import { getListingAction, bookmarkListing } from '../actions/listing';
 import { checkInOutSelect } from '../actions/booking';
 import { connect } from 'react-redux';
 import ForHTML from '../components/ui/ForHTML';
+// import MapboxGL from '@react-native-mapbox-gl/maps';
 
 class ListingScreen extends React.Component{
     constructor(props){
@@ -455,6 +456,8 @@ class ListingScreen extends React.Component{
             longitude,
         } = _self.props.listing
 
+        // const [coordinates] = useState([latitude, longitude])
+
         let hasMap = false;
         if( latitude != '' && longitude != '' && valid_coords(latitude,longitude) ){
             hasMap = true;
@@ -565,6 +568,11 @@ class ListingScreen extends React.Component{
                                         description={address}
                                     />
                                 </MapView>
+                                {/* <MapboxGL.MapView style={styles.map}>
+                                    <MapboxGL.Camera zoomLevel={6}
+                                        centerCoordinate={coordinates} />
+                                    <MapboxGL.PointAnnotation coordinate={coordinates} title={title} />
+                                </MapboxGL.MapView> */}
                             </> }
 
                             <View style={{marginTop: 10,}}>

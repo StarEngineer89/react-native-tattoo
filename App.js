@@ -27,6 +27,9 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import axios from 'axios';
 import SiteDetails from './src/constants/SiteDetails';
 
+// import MapboxGL from '@react-native-mapbox-gl/maps';
+// MapboxGL.setAccessToken("pk.eyJ1IjoiZmVkZWdsb2JhbCIsImEiOiJjbDVjODMxOW0wZXY2M2lzZW1nNml5MWEzIn0.7atBf_djZVCajDjSUWZFZQ");
+
 axios.defaults.baseURL = `${SiteDetails.url}/wp-json/cththemes/v1/listings`;
 axios.defaults.headers.common['Authorization'] = SiteDetails.app_key;
 // axios.defaults.headers.common['Accept-Language'] = "*";
