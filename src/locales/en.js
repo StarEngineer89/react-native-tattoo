@@ -262,6 +262,7 @@ export default {
     mybookings: 'My Bookings',
     bookmarksTab: 'Bookmarks',
     profileMenu: 'Profile',
+    tattooMenu: "Tattoo",
     // location request
     locrequest: {
         title: 'CTHthemes App',

@@ -225,6 +225,7 @@ export default {
     mybookings: "Đặt chỗ của tôi",
     bookmarksTab: "Dấu trang",
     profileMenu: "Hồ sơ",
+    tattooMenu: "Tattoo",
     locrequest: {
         title: "Ứng dụng CTHtheme",
         message: "Ứng dụng CTHtheme muốn truy cập vị trí của bạn",

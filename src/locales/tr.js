@@ -225,6 +225,7 @@ export default {
     mybookings: "Rezervasyonlarım",
     bookmarksTab: "Yer imleri",
     profileMenu: "Profil",
+    tattooMenu: "Tattoo",
     locrequest: {
         title: "CTHthemes Uygulaması",
         message: "CTHthemes Uygulaması konumunuza erişmek istiyor",

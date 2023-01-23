@@ -225,6 +225,7 @@ export default {
     mybookings: "Meine Buchungen",
     bookmarksTab: "Lesezeichen",
     profileMenu: "Profil",
+    tattooMenu: "Tattoo",
     locrequest: {
         title: "CTHthemes App",
         message: "Die CTHthemes App möchte auf Ihren Standort zugreifen",

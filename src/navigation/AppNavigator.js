@@ -113,7 +113,7 @@ function AppNavigator (){
 								return <ProfileSvg color={color}/>;
 							},
 							tabBarLabel: ({ color }) => {
-								return <TextRegular style={{fontSize: 13,color:color}}>{translate('profileMenu')}</TextRegular>
+								return <TextRegular style={{fontSize: 13,color:color}}>{translate('tattooMenu')}</TextRegular>
 							},
 						}
 					}}

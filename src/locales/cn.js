@@ -225,6 +225,7 @@ export default {
     mybookings: "我的预订",
     bookmarksTab: "书签",
     profileMenu: "轮廓",
+    tattooMenu: "Tattoo",
     locrequest: {
         title: "CTHthemes应用程序",
         message: "CTHthemes App想访问您的位置",
